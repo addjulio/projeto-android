@@ -30,6 +30,8 @@
 
 
      header{
+        min-width: 100px;
+       max-width: 1000px;
         text-decoration: none;
         
         font-family: var(--fonte-destaque);
