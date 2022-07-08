@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Splash&family=The+Nautigal&family=Titan+One&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/Android.otf) format('opentype');
+    font-weight:normal ;
+}
+/*variavel de cores  e fonte */
+:root{
+    --cor0: #c5ebd6;
+    --Cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5:#063d1e;
+
+     --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
+     --fonte-destaque: 'Bebas Neue', cursive;
+     --fonte-android: 'Android', cursive;
+     /*variavel de cores e fonte */
+}
+/* configuração global com o (*) Retirou margin e  padding de todos os elementos. --*/
+*{
+    
+    margin:0px;
+    padding:0px;
+}
+
+
+
+     header{
+        text-decoration: none;
+        
+        font-family: var(--fonte-destaque);
+        background-image: linear-gradient(to bottom, var(--cor4),var(--cor5));
+       min-height: 150px;
+       text-align: center;
+       padding-top: 150px;
+       box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+        
+                   
+         }
+
+    nav{
+        padding: 10px;
+        text-decoration: none;
+  
+        text-align: left;
+        font-family: var(--fonte-padrao);
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.144);
+    }
+   nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+font-weight: bold;
+
+   }
+   /*  configuração do  Menu do site*/
+   nav a:hover{ 
+    text-decoration: none;
+    background-color:var(--cor3);
+    border-radius: 5px;
+    color:var(--cor5);
+    text-decoration: none;
+    transition-duration: .5s;
+      /*  configuração do  Menu do site*/
+}
+    header >h1{
+
+        text-decoration: none;
+        font-family: var(--fonte-destaque);
+        
+      color: white;
+      text-align: center;
+      font-size: 3em;
+      max-width: ;
+      margin-bottom: 20px;
+      text-decoration: none;
+
+        
+    }
+    header>p{
+        text-decoration: none;
+   font-size: 1.2em;
+   color:white;
+   max-width: 600px;
+   text-align: center;
+  padding-right: 10px; 
+  padding-left: 10px;
+  margin: auto;
+   
+    }
+
+
+    
+    body{
+        
+     
+
+       font-family: var(--fonte-padrao);
+               
+       
+        
+        
+        background-color:#d6d5c2;
+
+        font-family: 'android', Times, serif;
+        font-size: 1em;
+        font-weight: normal;
+
+    }
+    
+    body>h1> {
+        font-family: var(--fonte-destaque);
+        
+       
+        
+        color: white;
+
+    }
+   
+    main{
+       
+    
+       min-width: 300px;
+       max-width: 1000px;
+       margin: auto;
+       margin-bottom: 30px;
+       padding: 20px;
+
+        font-family: var(--fonte-padrao);
+        background-color:white;
+        margin-top: 0;
+          margin-right: 150px;
+          
+          margin-left: 150px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+        text-align: left;
+        box-shadow: 0px 0px 10px rgba(12, 2, 2, 0.267);
+       
+
+    }
+    main > h2{
+
+        font-family: var(--fonte-android);
+        color: green;
+    }
+    main p {
+        
+
+        margin: 15px 0px;
+        text-align: justify;   /*  Ajustar o paragráfo do  site*/
+        text-indent: 30px;   /*  Ajustar o recuo do paragrafo*/
+        font-size: 1em;    /*  Aumenta a fonte do site*/
+        line-height: 2em;    /*  O espaço de linhas */
+    }
+
+    main img{
+        width: 100%;
+    }
+    main img.pequena{
+       max-width: 350px;
+        display: block;
+        margin: auto;
+
+    }
+    div.video{
+
+        background-color: var(--cor5);
+        margin: 0px -20px 30px -20px;
+        padding: 20px;
+        padding-bottom: 58%;
+        position: relative;
+        
+        }
+        div.video>iframe{
+
+            position: absolute;
+         top:5%;
+         left: 5%;
+         width: 90%;
+         height:90%;
+
+        }
+        
+    aside{
+        /* Explicando algum contéudo uso anside */
+
+        background-color: var(--Cor1);
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bolder; /* Negrito*/
+        text-decoration: none;
+        
+    }
+    aside> h2{
+
+        background-color: var(--cor4);
+        color: white;
+        padding: 10px;
+        margin: -10px -10px 0px -10px;
+        border-radius: 10px 10px 0px 0px ;
+
+    }
+
+    
+    aside >ul{
+        list-style-type:'\2714\00A0\00A0';
+        list-style-position: inside; /*Colocar contéudo da lista dentro do paragráfo */
+        columns: 2; /* Dividir a lista em dois ou mais  */
+    }
+
+    footer{
+        text-align: center;
+        background-color: var(--cor5);
+        color:white;
+       
+    }
+              
