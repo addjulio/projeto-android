@@ -124,7 +124,7 @@ font-weight: bold;
     main{
        
     
-       min-width: 600px;
+       min-width: 100px;
        max-width: 1000px;
        margin: auto;
        margin-bottom: 30px;
