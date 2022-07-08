@@ -30,8 +30,6 @@
 
 
      header{
-
-      
         text-decoration: none;
         
         font-family: var(--fonte-destaque);
@@ -73,15 +71,12 @@ font-weight: bold;
 
         text-decoration: none;
         font-family: var(--fonte-destaque);
-        text-align: center;
         
       color: white;
       text-align: center;
       font-size: 3em;
       max-width:600px ;
-      padding-right: 10px;
-      padding-left: 10px;
-      margin: auto;
+      margin-bottom: 20px;
       text-decoration: none;
 
         
