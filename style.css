@@ -98,7 +98,10 @@ font-weight: bold;
     body{
 
         
-      border-left: 300px;
+        min-height: 150px;
+        text-align: center;
+        padding-top: 150px;
+ 
 
        font-family: var(--fonte-padrao);
                
