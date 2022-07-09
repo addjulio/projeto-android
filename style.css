@@ -125,7 +125,8 @@ font-weight: bold;
     main{
        
     
-      
+      margin-left: 150px;
+      margin-right: 150px;
         font-family: var(--fonte-padrao);
         background-color:white;
         margin-top: 0;
