@@ -98,10 +98,7 @@ font-weight: bold;
     body{
 
         
-        min-height: 150px;
-        text-align: center;
-        padding-top: 150px;
- 
+       
 
        font-family: var(--fonte-padrao);
                
@@ -128,11 +125,7 @@ font-weight: bold;
     main{
        
     
-       min-width: 300px;
-       max-width: 1000px;
-       margin-bottom: 30px;
-       padding: 20px;
-
+      
         font-family: var(--fonte-padrao);
         background-color:white;
         margin-top: 0;
