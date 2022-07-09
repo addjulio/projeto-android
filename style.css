@@ -96,8 +96,9 @@ font-weight: bold;
 
     
     body{
+
         
-      text-align: center;
+      border-left: 300px;
 
        font-family: var(--fonte-padrao);
                
